@@ -1,3 +1,11 @@
 {
-  "item.advance_material.test": "Test"
+  "item.advance_material.test": "Test",
+  "item.advance_material.limestone": "Limestone",
+  "item.advance_material.coke": "Coke",
+  "item.advance_material.scrap": "Scrap",
+
+  "block.advance_material.limestone_block": "Block of Limestone",
+  "block.advance_material.coke_block": "Block of Coke",
+
+  "itemGroup.advance_material": "Advance Material"
 }

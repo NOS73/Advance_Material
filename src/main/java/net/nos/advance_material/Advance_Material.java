@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.nos.advance_material.block.ModBlocks;
 import net.nos.advance_material.item.Moditems;
 import org.slf4j.Logger;
 
@@ -22,8 +23,9 @@ public class Advance_Material {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
 
-
         Moditems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
 
         modEventBus.addListener(this::commonSetup);
 
