@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "advance_material:limestone_block",
+    "advance_material:coke_block",
+    "advance_material:raw_iron_ore"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobblestone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "advance_material:hematite",
+              "weight": 2.5
+            },
+            {
+              "type": "minecraft:item",
+              "name": "advance_material:magnetite",
+              "weight": 2.5
+            },
+            {
+              "type": "minecraft:item",
+              "name": "advance_material:goethite",
+              "weight": 2
+            },
+            {
+              "type": "minecraft:item",
+              "name": "advance_material:siderite",
+              "weight": 2
+            },
+            {
+              "type": "minecraft:item",
+              "name": "advance_material:limonite",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

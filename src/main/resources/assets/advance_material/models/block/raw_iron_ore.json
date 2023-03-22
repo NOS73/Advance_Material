@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "advance_material:block/raw_iron_ore"
+  }
+}

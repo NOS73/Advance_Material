@@ -21,15 +21,28 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Advance_Material.MOD_ID);
 
 
+
+
+
 //Add blocks below
     public static final RegistryObject<Block> LIMESTONE_BLOCK = registerBlock("limestone_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops()),
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().
+                    strength(0.8f,4.0f)),
             ModCreativeModeTab.Advance_Material);
     public static final RegistryObject<Block> COKE_BLOCK = registerBlock("coke_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops()),
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().
+                    strength(6.0f,6.0f)),
+            ModCreativeModeTab.Advance_Material);
+    public static final RegistryObject<Block> RAW_IRON_ORE = registerBlock("raw_iron_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().
+                    strength(6.0f,6.0f)),
             ModCreativeModeTab.Advance_Material);
 
 //Add blocks above
+
+
+
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block );

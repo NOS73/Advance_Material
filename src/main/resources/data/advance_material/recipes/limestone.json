@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{
+    "item": "advance_material:limestone_block"
+  }
+  ],
+  "result": {
+    "item": "advance_material:limestone",
+    "count": 9
+  }
+}

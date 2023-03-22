@@ -3,9 +3,15 @@
   "item.advance_material.limestone": "Limestone",
   "item.advance_material.coke": "Coke",
   "item.advance_material.scrap": "Scrap",
+  "item.advance_material.hematite": "Hematite",
+  "item.advance_material.magnetite": "Magnetite",
+  "item.advance_material.goethite": "Goethite",
+  "item.advance_material.siderite": "Siderite",
+  "item.advance_material.limonite": "Limonite",
 
   "block.advance_material.limestone_block": "Block of Limestone",
   "block.advance_material.coke_block": "Block of Coke",
+  "block.advance_material.raw_iron_ore": "Iron Ore",
 
   "itemGroup.advance_material": "Advance Material"
 }
